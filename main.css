@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.z{ 
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  padding-left: 140px;
+  padding-top: 70px;
+  width: 100%;
+  height: 200px;
+}
+.zon{
+  width: 300px;
+  height: 300px;
+  background-color: white; 
+  display: flex;
+  flex-wrap: wrap;
+}
+.qarakusi{
+  width: 100px;
+  height: 100px;
+  border: 5px solid rgb(23, 73, 39); 
+  cursor: pointer;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.win {
+  animation: pulse 0.6s infinite alternate;
+  background-color: gold !important;
+  color: white !important;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+} 
+
+ .draw{
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt{
+  color: yellow;
+  font-size: 50px;
+  font-family: fantasy;
+  display: none;
+}
+.btn{
+  padding-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-rest{
+  border:none;
+  border: 1px solid rgb(23, 73, 39);
+  padding: 10px 40px;
+  background-color: rgb(23, 73, 39);
+  color: white;
+  border-radius: 15px;
+  transition: all 0.3s linear;
+}
+.btn-rest:hover{
+  background-color: white;
+  color: rgb(23, 73, 39);
+}
+.syochik{
+  padding-top:50px ;
+  gap: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new{
+  transform: rotate(270deg);
+}
+.newg-btn{
+  border:none;
+  border: 1px solid rgb(23, 73, 39);
+  padding: 10px 40px;
+  background-color: rgb(23, 73, 39);
+  color: white;
+  border-radius: 15px;
+  transition: all 0.3s linear;
+}
+.newg-btn:hover{
+  background-color: white;
+  color: rgb(23, 73, 39);
+}
